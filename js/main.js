@@ -39,5 +39,3 @@ brakePedal2.addEventListener("click", () => {
     car2.brake();
     car2.updateSpeedometer();
 })
-
-car2._speed = 300;
