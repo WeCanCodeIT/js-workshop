@@ -1,3 +1,9 @@
+import {
+    Car
+} from './car.js';
+import {
+    userName
+} from './exports.js'
 const speedometer1 = document.querySelector(".car1 .dashboard__speedometer")
 const checkEngineLight1 = document.querySelector(".car1 .dashboard__check-engine-light")
 const car1 = new Car(speedometer1, checkEngineLight1);
@@ -30,10 +36,7 @@ gasPedal2.addEventListener("click", () => {
 
 const brakePedal2 = document.querySelector(".car2 .floorboard__brake-pedal");
 
-const theAButton = 0 //
-theAButton.addEventListener("keyUp", () => {
 
-})
 brakePedal2.addEventListener("click", () => {
     event.preventDefault();
     car2.brake();

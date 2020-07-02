@@ -1,3 +1,9 @@
+import {
+    userNames,
+    userName,
+    superSecretVariable
+} from "./exports.js";
+
 const nameElement = document.querySelector('.anchor');
 
 const displayNames = (namesToDisplay, element) => {
@@ -14,3 +20,4 @@ const displayNames = (namesToDisplay, element) => {
 displayNames(userNames, nameElement)
 
 alert("Welcome " + userName)
+alert(superSecretVariable)
